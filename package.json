@@ -1,0 +1,21 @@
+{
+    "name": "react-todo-app",
+    "version": "1.0.0",
+    "description": "todoapp",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "grunt": "*",
+        "react": "*",
+        "events": "*",
+        "flux": "*",
+        "object-assign": "*",
+        "grunt-react": "*",
+        "grunt-browserify": "*",
+        "grunt-contrib-watch": "*"
+    }
+}
