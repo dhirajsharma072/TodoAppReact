@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
         watch: {
             react: {
-                files: 'react_components/*.js',
+                files: 'todo_app/*.js',
                 tasks: ['browserify']
             }
         },
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                 transform: [require('grunt-react').browserify]
             },
             client: {
-                src: ['react_components/**/*.js'],
+                src: ['todo_app/**/*.js'],
                 dest: 'scripts/app.built.js'
             }
         }
